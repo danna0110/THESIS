@@ -1,0 +1,13 @@
+labels: ../train/images
+images: ../valid/images
+
+
+nc: 4
+names: ['authentic_color', 'authentic_pattern', 'counterfeit_color', 'counterfeit_pattern']
+
+roboflow:
+  workspace: biogesictrial
+  project: bio_deeetect
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/biogesictrial/bio_deeetect/dataset/3
